@@ -1,0 +1,9 @@
+@font-face {
+	font-family: "BoldiePopOutline";
+	src: url("fonts/BoldiePopOutline.eot");
+	src: url("fonts/BoldiePopOutline.eot") format("embedded-opentype"),
+		url("fonts/BoldiePopOutline.woff2") format("woff2"),
+		url("fonts/BoldiePopOutline.woff") format("woff"),
+		url("fonts/BoldiePopOutline.ttf") format("truetype"),
+		url("fonts/BoldiePopOutline.svg#BoldiePopOutline") format("svg");
+}

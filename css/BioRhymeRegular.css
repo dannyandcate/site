@@ -1,0 +1,9 @@
+@font-face {
+	font-family: "BioRhymeRegular";
+	src: url("fonts/BioRhymeRegular.eot");
+	src: url("fonts/BioRhymeRegular.eot") format("embedded-opentype"),
+		url("fonts/BioRhymeRegular.woff2") format("woff2"),
+		url("fonts/BioRhymeRegular.woff") format("woff"),
+		url("fonts/BioRhymeRegular.ttf") format("truetype"),
+		url("fonts/BioRhymeRegular.svg#BioRhymeRegular") format("svg");
+}
