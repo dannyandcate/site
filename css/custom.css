@@ -4589,3 +4589,8 @@ a:active {
 a:hover {
 	text-decoration: underline;
 }
+.zoom-in:hover {
+    transform: scale(1.15);
+}
+
+div img { max-width: 100%; }
