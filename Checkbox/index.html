@@ -21,32 +21,6 @@
 		</style>
 	</head>
 	<body>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script src="http://cdn.jsdelivr.net/jquery.cookie/1.4.0/jquery.cookie.min.js"></script>
-
-		<script>
-			$(":checkbox").on("change", function () {
-				var checkboxValues = {}
-				$(":checkbox").each(function () {
-					checkboxValues[this.id] = this.checked
-				})
-				$.cookie("checkboxValues", checkboxValues, { expires: 367, path: "/" })
-			})
-
-			function repopulateCheckboxes() {
-				var checkboxValues = $.cookie("checkboxValues")
-				if (checkboxValues) {
-					Object.keys(checkboxValues).forEach(function (element) {
-						var checked = checkboxValues[element]
-						$("#" + element).prop("checked", checked)
-					})
-				}
-			}
-
-			$.cookie.json = true
-			repopulateCheckboxes()
-		</script>
-
 		<h1
 			style="
 				text-align: center;
